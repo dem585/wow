@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+  	<title>document</title>
+  	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="css/slick.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+
+	<header class="header">
+		<div class="container__small">
+		<button class="menu__btn menu-clos">
+				<span class="menu__btn-span"></span>
+		</button>
+			<div class="form">
+				<p class="form-info">
+					Для того чтобы ваш предок оказался здесь нужно заполнить формулу отправки. Отправить заявку к нам после расcмотрение и редактирования информация  фотография будет размещена на сайте.
+				</p>
+			<form class="form-box">
+				<div class="input-box">
+					<p>Фамилия Имя Отчество</p>
+					<input class="form-input" type="text" name="name" placeholder="Ф.И.О" required>
+					<p>Дата жизни</p>
+					<input class="form-input" type="text" name="date" placeholder="Дата жизни" required>
+					<p>Свой @mail</p>
+					<input class="form-input" type="text" name="mail" placeholder="@mail" required>
+					<p>Фотография<span>(от 1 до 4 штук)</span></p>
+					<input class="form-input" type="file" name="myFile">
+
+				</div>
+				<div class="textarea-box">
+					<p>Информация о вашем предке где воевал, звание и тд.</p>
+					<textarea class="form-textarea" placeholder="" required></textarea>	
+				</div>
+				<button class="form-button" type="submit">отправить</button>
+			</form>
+			</div>
+		</div> 
+		</header>
+
+
+
+
+
+		<section class="veteran-box">
+			<div class="container">
+				<div class="veteran-box__items">
+					<a class="veteran-box__btn" href="index.html"> <svg class="icn-box-margin" width="15" height="20" viewBox="0 0 14 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="icn-box" fill-rule="evenodd" clip-rule="evenodd" d="M13.5695 2.49876L3.54376 12.5006L13.5695 22.5015C14.1435 23.0731 14.1435 23.9999 13.5695 24.5705C12.9954 25.1432 12.0674 25.1432 11.4914 24.5705L0.431999 13.5346C-0.144 12.963 -0.144 12.0372 0.431999 11.4656L11.4914 0.428735C12.0674 -0.142911 12.9954 -0.142911 13.5695 0.428735C14.1435 0.999405 14.1435 1.92613 13.5695 2.49876Z" /></svg>Назад</a>
+					<div class="veteran-box__inner">
+						<img class="veteran-box__img" src="images/veteran/iv8.jpg">
+						<h3 class="veteran-box__name">Иван иванов ивановичь</h3>
+						<p class="veteran-box__date">1900-1900</p>
+						<p class="veteran-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__items">
+					<p class="footer__form-title">Сбор информаций</p>
+						<p class="footer__fotm-text">Чтобы отправить информацию о ветеране заполните в низу форму или отправте почтовый запрос на<a href="#"> text@gmail.com</a></p>						
+					<form class="footer__form">	
+							<div class="input-box">
+							<p>Фамилия Имя Отчество</p>
+							<input class="footer__form-input" type="text" name="name" placeholder="Ф.И.О" required>
+							<p>Дата жизни</p>
+							<input class="footer__form-input" type="text" name="date" placeholder="Дата жизни" required>
+							<p>Свой @mail</p>
+							<input class="footer__form-input" type="text" name="mail" placeholder="@mail" required>
+							</div>
+							<div class="textarea-box">
+								<p class="footer__form-text-title">Биография или любая другаю информация о ветеране?</p>
+							<textarea class="footer__form-textarea" placeholder="Биография или любая другаю информация о ветеране" required>
+							</textarea>							
+							</div>
+							<button class="footer__form-button" type="submit">отправить</button>							
+					</form>	
+				</div>								
+			</div>
+					<div class="footer__copy">
+						<p class="footer__copy-text">2021 не комерческий сайт</p>
+					</div>
+		</footer>
+
+
+
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</html> 
