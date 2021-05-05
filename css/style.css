@@ -607,7 +607,10 @@ body{
 		width: 90%;
 	}
 	.content__info-blog{
-		grid-template-columns: 1fr;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 	.content__info-box{
 		margin: 0 auto 40px;
