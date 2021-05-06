@@ -24,13 +24,19 @@
 				</p>
 			<form class="form-box">
 				<div class="input-box">
+
+					<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="wow">
+						<input type="hidden" name="admin_email" value="wow2den2@gmail.com">
+						<input type="hidden" name="form_subject" value="Form meny">						
+					<!-- END Hidden Required Fields -->
 					<p>Фамилия Имя Отчество</p>
 					<input class="form-input" type="text" name="name" placeholder="Ф.И.О" required>
 					<p>Дата жизни</p>
 					<input class="form-input" type="text" name="date" placeholder="Дата жизни" required>
 					<p>Свой @mail</p>
-					<input class="form-input" type="text" name="mail" placeholder="@mail" required>
-					<p>Фотография<span>(от 1 до 4 штук)</span></p>
+					<input class="form-input" type="mail"  name="mail" placeholder="@mail" required>
+					<p>Фотография</p>
 					<input class="form-input" type="file" name="myFile">
 
 				</div>
@@ -73,6 +79,12 @@
 					<p class="footer__form-title">Сбор информаций</p>
 						<p class="footer__fotm-text">Чтобы отправить информацию о ветеране заполните в низу форму или отправте почтовый запрос на<a href="#"> text@gmail.com</a></p>						
 					<form class="footer__form">	
+
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="wow">
+						<input type="hidden" name="admin_email" value="wow2den2@gmail.com">
+						<input type="hidden" name="form_subject" value="Form meny">						
+					<!-- END Hidden Required Fields -->
 							<div class="input-box">
 							<p>Фамилия Имя Отчество</p>
 							<input class="footer__form-input" type="text" name="name" placeholder="Ф.И.О" required>
@@ -80,6 +92,8 @@
 							<input class="footer__form-input" type="text" name="date" placeholder="Дата жизни" required>
 							<p>Свой @mail</p>
 							<input class="footer__form-input" type="text" name="mail" placeholder="@mail" required>
+							<p>Фотография</p>
+							<input class="form-input" type="file" name="myFile">
 							</div>
 							<div class="textarea-box">
 								<p class="footer__form-text-title">Биография или любая другаю информация о ветеране?</p>
