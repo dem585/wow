@@ -620,7 +620,7 @@ body{
 
 @media(max-width: 550px){
 	.veteran-box__img{
-		width: 100%;
+		width: 80%;
 		height: 330px;
 		margin: 0;
 	}
@@ -636,7 +636,6 @@ body{
 
 @media(max-width: 400px){
 	.veteran-box__img{
-		width: 80%;
 		height: 300px;
 	}
 	.footer__form-input{
